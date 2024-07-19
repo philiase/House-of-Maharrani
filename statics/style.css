@@ -224,9 +224,330 @@ header {
     color: #555;
 }
 
+/* about_page css */
 
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
 
+header {
+    background-color: #e91e63;
+    color: white;
+    padding: 10px 20px;
+}
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.logo-container {
+    display: flex;
+    align-items: center;
+}
 
+.logo-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
 
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+}
+
+.mission-section, .vision-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffe4e1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text-container {
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+.text-container h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    font-size: 1.2em;
+}
+
+/* concious conversations page css */
+
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #ffe4e1;
+}
+
+header {
+    background-color: #e91e63;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 50px;
+}
+
+.conversation-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-container {
+    max-width: 50%;
+}
+
+.text-container h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e91e63;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #d81b60;
+}
+
+.image-container img {
+    width: 300%;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+/* conscious content css */
+
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #ffe4e1;
+}
+
+header {
+    background-color: #e91e63;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;
+}
+
+.intro-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 110px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+}
+
+.intro-container {
+    max-width: 50%;
+}
+
+.intro-container h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.intro-container .ask-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8e24aa;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.intro-container .ask-button:hover {
+    background-color: #7b1fa2;
+}
+
+.intro-text {
+    max-width: 50%;
+}
+
+.posts-section {
+    padding: 20px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-signup {
+    text-align: right;
+}
+
+.login-signup .login-signup-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e91e63;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.login-signup .login-signup-button:hover {
+    background-color: #d81b60;
+}
+
+.posts {
+    margin-top: 20px;
+}
+
+.post {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.post h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+}
+
+.post p {
+    font-size: 1.2em;
+}
+
+.post .read-more {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #8e24aa;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.post .read-more:hover {
+    background-color: #7b1fa2;
+}
